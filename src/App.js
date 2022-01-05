@@ -4,6 +4,20 @@ import test from './test';
 
 function App() {
   
+
+    const circle = {
+      label: 1
+    }
+
+    const func = ({ label }) => label + 2
+
+    console.log(
+      func(circle)
+    )
+
+
+
+
    
 
   return (
